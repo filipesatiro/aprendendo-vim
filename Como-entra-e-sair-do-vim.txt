@@ -1,25 +1,27 @@
-Como Entrar e Sair do Vim
+		Como Entra e Sai do Vim
 
-O Vim é um editor de texto poderoso, muito usado por programadores e administradores de sistemas. No entanto, sua interface baseada em modos pode confundir novos usuários. Abaixo, explicamos o básico: como entrar e sair do Vim.
- Entrando no Vim
+	O Vim é um editor de texto poderoso, muito usado por programadores e administradores de sistemas. No entanto, sua interface baseada em modos pode confundir novos usuários. Abaixo, explicamos o básico: como entrar e sair do Vim.
 
-Para abrir o Vim, use o terminal (linha de comando) e digite:
 
-vim nome-do-arquivo
+    			 Entrando no Vim
+
+    Para abrir o Vim, use o terminal (linha de comando) e digite:
+
+    vim nome-do-arquivo
 
     Se o arquivo não existir, o Vim criará um novo com esse nome.
 
     Se quiser apenas abrir o Vim sem nome de arquivo, digite apenas vim.
 
- Saindo do Vim
-O Vim possui modos. Para sair, você precisa estar no modo de comando. Pressione a tecla Esc para garantir que está nesse modo.
-A seguir, digite um dos seguintes comandos e pressione Enter:
-Comando	Ação
-:q	Sai se você não fez alterações
-:q!	Sai sem salvar (descarta alterações)
-:wq ou :x	Salva e sai
-:w	Apenas salva o arquivo
-ZZ	(Sem :) Salva e sai se houve mudanças
+                          Saindo do Vim
+   O Vim possui modos. Para sair, você precisa estar no modo de comando. Pressione a tecla Esc para garantir que está nesse modo.
+	A seguir, digite um dos seguintes comandos e pressione Enter:
+ 	Comando	Ação
+	:q	Sai se você não fez alterações
+	:q!	Sai sem salvar (descarta alterações)
+	:wq ou :x	Salva e sai
+	:w	Apenas salva o arquivo
+	ZZ	(Sem :) Salva e sai se houve mudanças
 
     Abra um terminal.
     Digite: vim teste.txt
