@@ -1,0 +1,21 @@
+NOVO ARQUIVO DE TESTE
+ comando criado para ver quantas linhas tem no meu arquivo
+:set number 
+
+ignorar o case sensitive na busca 
+:set ignorecase
+
+habilitar a identação da linguagem
+:set syntax=on
+
+identação automatica
+:set autoindent
+
+comando completar as chaves e colchetes quando você os abre
+set showmatch 
+
+salvando o arquivo automaticamente 
+:set autowrite
+
+
+ 
