@@ -1,0 +1,8 @@
+O comando :enew no Vim cria um novo buffer vazio. Isso significa que você começa com um novo arquivo sem precisar fechar o atual. Ele é útil quando você quer trabalhar em algo novo sem perder o que já estava fazendo.
+Uso:
+
+    Para criar um novo arquivo sem sair do Vim:
+
+    :enew
+
+Esse comando não salva o arquivo atual, ele simplesmente abre um novo buffer em branco. Se você tiver alterações não salvas, o Vim pedirá para você salvá-las antes de criar o novo buffer.
